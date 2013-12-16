@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  THIS LAYOUT IS USED FOR DISPLAYING ROUTE NAME AND UPTO 5 ARRIVAL TIMES-->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="30dp"
+    android:background="@color/lightgrey"
+    android:padding="5dip" >
+
+    <TextView
+        android:id="@+id/mainString"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/midnight_blue"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:typeface="sans" />
+
+    <TextView
+        android:id="@+id/smallText1"
+        android:layout_below="@id/mainString"
+        style="@style/TimeTextViewStyle" />
+
+    <LinearLayout
+        android:id="@+id/divider1"
+        android:layout_below="@id/mainString"
+        android:layout_toRightOf="@+id/smallText1"
+        android:orientation="vertical"
+ 		style="@style/TimeTextDividerViewStyle" />
+    
+    <TextView
+        android:id="@+id/smallText2"
+        android:layout_below="@id/mainString"
+        android:layout_toRightOf="@+id/divider1"
+        style="@style/TimeTextViewStyle" />
+    
+   <LinearLayout
+        android:id="@+id/divider2"
+        android:layout_below="@id/mainString"
+        android:layout_toRightOf="@+id/smallText2"
+        android:orientation="vertical"
+		style="@style/TimeTextDividerViewStyle" />    
+
+    <TextView
+        android:id="@+id/smallText3"
+        android:layout_below="@id/mainString"
+        android:layout_toRightOf="@+id/smallText2"
+		style="@style/TimeTextViewStyle" />
+    
+    <LinearLayout
+        android:id="@+id/divider3"
+        android:layout_below="@id/mainString"
+        android:layout_toRightOf="@+id/smallText3"
+        android:orientation="vertical"
+      	style="@style/TimeTextDividerViewStyle" />  
+    
+    <TextView
+        android:id="@+id/smallText4"
+        android:layout_below="@id/mainString"
+        android:layout_toRightOf="@+id/smallText3"
+		style="@style/TimeTextViewStyle" />
+        
+    <LinearLayout
+        android:id="@+id/divider4"
+        android:layout_below="@id/mainString"
+        android:layout_toRightOf="@+id/smallText4"
+        android:orientation="vertical"
+		style="@style/TimeTextDividerViewStyle" />  
+    
+    <TextView
+        android:id="@+id/smallText5"
+        android:layout_below="@id/mainString"
+        android:layout_toRightOf="@+id/smallText4"
+		style="@style/TimeTextViewStyle" />
+    
+</RelativeLayout>

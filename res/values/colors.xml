@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFF</color>
+    <color name="lightgrey">#E5E4E2</color>
+    <color name="midnight_blue">#151B54</color>
+    <color name="cranberry">#9F000F</color>
+    <color name="cornflower_blue">#151B8D</color>
+    <color name="platinum">#E5E4E2</color>
+</resources>
