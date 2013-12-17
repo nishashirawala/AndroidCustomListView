@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--  THIS LAYOUT IS USED AS A CUSTOM VIEW FOR SHOWING FAVOURITE STOPS -->
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/textview"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_vertical"
+    android:background="#E5E4E2"
+    android:focusable="false"
+    android:padding="15dp"
+    android:textColor="@color/midnight_blue"
+    android:textIsSelectable="false"
+    android:textSize="14sp"
+    android:textStyle="bold"
+    android:typeface="sans" >
+
+</TextView>
